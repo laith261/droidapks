@@ -1,28 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DroidApks | Premium Android Solutions</title>
-    <meta name="description" content="DroidApks provides premium Android application development and curated mobile experiences for businesses.">
+    <meta name="description"
+        content="DroidApks provides premium Android application development and curated mobile experiences for businesses.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
-    <header>
-        <img src="assets/images/cover1.png" alt="logo">
+
+    <header class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">Next-Gen Android Experiences</div>
+                <h1 class="hero-title">Premium <span class="gradient-text">Android Solutions</span></h1>
+                <p class="hero-description">We design, build, and publish high-performance, immersive native Android
+                    applications. Explore our curated selection of high-quality mobile tools and arcade games.</p>
+                <div class="hero-actions">
+                    <a href="#our-work" class="hero-btn primary">Explore Featured Apps</a>
+                    <a href="https://play.google.com/store/apps/dev?id=7165275194190215180" target="_blank"
+                        class="hero-btn secondary">Play Store Developer Page</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="scene-3d" id="scene-3d">
+
+                    <!-- Central Axis Logo -->
+                    <div class="central-logo-wrapper">
+                        <img src="assets/images/cover1.png" alt="DroidApks Cover Logo" class="central-logo">
+                    </div>
+
+                    <!-- Orbiting Icons Container -->
+                    <div class="orbit-icons-container">
+                        <div class="orbit-icon" style="--delay: 0s;" data-name="Flying Bird">
+                            <img src="assets/images/apps/Gemini_Generated_Image_shb8z1shb8z1shb8.png" alt="Flying Bird">
+                        </div>
+                        <div class="orbit-icon" style="--delay: -3.33s;" data-name="Save Shared Files">
+                            <img src="assets/images/apps/1773603494194.png" alt="My Finance">
+                        </div>
+                        <div class="orbit-icon" style="--delay: -6.67s;" data-name="DDM">
+                            <img src="assets/images/apps/file_00000000809c71f4a79127496d46b43b.png" alt="Assistant">
+                        </div>
+                        <div class="orbit-icon" style="--delay: -10s;" data-name="Whiteboard Pro">
+                            <img src="assets/images/apps/176807541662.jpg" alt="Portal">
+                        </div>
+                        <div class="orbit-icon" style="--delay: -13.33s;" data-name="DroidApks">
+                            <img src="assets/images/apps/icon.png" alt="Flying Bird">
+                        </div>
+                        <div class="orbit-icon" style="--delay: -16.67s;" data-name="Shapes Master">
+                            <img src="assets/images/apps/app_icon_new.png" alt="Shapes Master">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
-    <nav>
-            <a href="http://">link</a>
-            <a href="http://">link</a>
-            <a href="http://">link</a>
-            <a href="http://">link</a>
-            <a href="http://">link</a>
-        </nav>
+
+    <main>
+        <section id="tech-stack">
+            <div class="tech-container">
+                <h2 class="tech-title">Technology Stack</h2>
+                <p class="tech-subtitle">The powerful tools and frameworks we use to build premium solutions.</p>
+                <div class="tech-grid">
+                    <div class="tech-card" id="tech-git">
+                        <div class="tech-card-glass"></div>
+                        <div class="tech-icon-wrapper">
+                            <img src="assets/images/git_icon_1778495207381.png" alt="Git" class="tech-icon">
+                        </div>
+                        <h3 class="tech-card-title">Git</h3>
+                        <p class="tech-card-desc">Advanced version control for seamless collaboration and code
+                            management.</p>
+                        <div class="tech-card-glow" style="background: #f05032"></div>
+                    </div>
+                    <div class="tech-card" id="tech-android-studio">
+                        <div class="tech-card-glass"></div>
+                        <div class="tech-icon-wrapper">
+                            <img src="assets/images/android_studio_icon_1778495220847.png" alt="Android Studio"
+                                class="tech-icon">
+                        </div>
+                        <h3 class="tech-card-title">Android Studio</h3>
+                        <p class="tech-card-desc">Primary IDE for building high-performance, native Android
+                            applications.</p>
+                        <div class="tech-card-glow" style="background: #3ddc84"></div>
+                    </div>
+                    <div class="tech-card" id="tech-ai">
+                        <div class="tech-card-glass"></div>
+                        <div class="tech-icon-wrapper">
+                            <img src="assets/images/ai_icon_1778495237649.png" alt="Artificial Intelligence"
+                                class="tech-icon">
+                        </div>
+                        <h3 class="tech-card-title">Artificial Intelligence</h3>
+                        <p class="tech-card-desc">Leveraging cutting-edge AI to enhance user experiences and automate
+                            complex tasks.</p>
+                        <div class="tech-card-glow" style="background: #8b5cf6"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="our-work">
+            <div class="work-container">
+                <h2 class="work-title">Our Featured Apps</h2>
+                <p class="work-subtitle">Discover our published applications on the Google Play Store.</p>
+                <div class="work-grid">
+                    <div class="work-card">
+                        <div class="work-image-wrapper"
+                            style="display: flex; justify-content: center; align-items: center; background: rgba(240, 244, 255, 0.5);">
+                            <img src="https://play-lh.googleusercontent.com/b0I4FBJy0oDFTekFuwPBb7-343k9egZnzO92FjOaLlYCPE0YaCo1AhcR9hcc6OZm-SL-Ehp7IyhJ1dhOAMaHkg=s256-rw"
+                                alt="Flying Bird" class="work-image"
+                                style="width: 120px; height: 120px; object-fit: contain; border-radius: 24px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
+                        </div>
+                        <div class="work-content">
+                            <span class="work-category">Arcade Game</span>
+                            <h3 class="work-card-title">Flying Bird</h3>
+                            <p class="work-card-desc">An addictive arcade experience where you control a bird with
+                                special skills like Magnet and Ghost bird to avoid obstacles.</p>
+                            <a href="https://play.google.com/store/apps/details?id=com.laith.flyingbird"
+                                class="work-btn" target="_blank">Download on Play Store</a>
+                        </div>
+                    </div>
+                    <div class="work-card">
+                        <div class="work-image-wrapper"
+                            style="display: flex; justify-content: center; align-items: center; background: rgba(240, 244, 255, 0.5);">
+                            <img src="https://play-lh.googleusercontent.com/6zPlqaD3nSsm1s8Ff6hunAQBbf3bTFDtNvZBd1lAO9u0H1oNzsLN6RcCXChYNP7VroBd=s256-rw"
+                                alt="My Finance" class="work-image"
+                                style="width: 120px; height: 120px; object-fit: contain; border-radius: 24px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
+                        </div>
+                        <div class="work-content">
+                            <span class="work-category">Tools & Finance</span>
+                            <h3 class="work-card-title">My Finance</h3>
+                            <p class="work-card-desc">Complete financial management tool to track your daily income,
+                                expenses, and manage your budget with intuitive reports.</p>
+                            <a href="https://play.google.com/store/apps/details?id=com.laith.myfinance" class="work-btn"
+                                target="_blank">Download on Play Store</a>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top: 50px;">
+                    <a href="https://play.google.com/store/apps/dev?id=7165275194190215180" target="_blank"
+                        class="work-btn"
+                        style="background: transparent; border: 1px solid var(--primary); color: var(--primary); box-shadow: none;">View
+                        All Apps on Google Play</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <script src="js/app.js"></script>
 </body>
+
 </html>
