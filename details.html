@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Details | DroidApks</title>
+    <meta name="description"
+        content="View detail specs, screenshots, and download native premium Android applications.">
+    <link rel="icon" href="assets/images/cover1.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        :root {
+            --app-accent: #6366f1;
+            --app-accent-glow: rgba(99, 102, 241, 0.4);
+        }
+
+        .app-detail-hero {
+            padding: 80px 10% 60px 10%;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(240, 244, 255, 0.6) 100%);
+            border-bottom: 1px solid rgba(99, 102, 241, 0.08);
+            text-align: left;
+        }
+
+        .app-hero-icon {
+            width: 140px;
+            height: 140px;
+            border-radius: 32px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12), 0 0 25px var(--app-accent-glow);
+            object-fit: contain;
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            background: #ffffff;
+            padding: 10px;
+        }
+
+        .app-hero-info {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .app-title {
+            font-size: 2.8rem;
+            font-weight: 800;
+            margin-bottom: 12px;
+            color: #1e293b;
+            line-height: 1.2;
+        }
+
+        .app-desc {
+            color: #475569;
+            font-size: 1.1rem;
+            max-width: 750px;
+            margin-bottom: 30px;
+            line-height: 1.7;
+        }
+
+        .screenshot-gallery {
+            padding: 80px 10%;
+            background: #ffffff;
+            text-align: left;
+        }
+
+        .gallery-title {
+            font-size: 2.2rem;
+            font-weight: 800;
+            margin-bottom: 35px;
+            color: #1e293b;
+        }
+
+        .screenshot-container {
+            display: flex;
+            gap: 24px;
+            overflow-x: auto;
+            padding-bottom: 25px;
+            scroll-snap-type: x mandatory;
+        }
+
+        .screenshot-container::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .screenshot-container::-webkit-scrollbar-track {
+            background: #f1f5f9;
+            border-radius: 10px;
+        }
+
+        .screenshot-container::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 10px;
+        }
+
+        .screenshot-img {
+            height: 480px;
+            border-radius: 24px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            scroll-snap-align: start;
+            transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        .screenshot-img:hover {
+            transform: scale(1.02);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Error page styling */
+        .error-container {
+            padding: 100px 10%;
+            text-align: center;
+            min-height: calc(100vh - 150px);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .error-title {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #1e293b;
+            margin-bottom: 20px;
+        }
+
+        .error-message {
+            font-size: 1.2rem;
+            color: #64748b;
+            margin-bottom: 40px;
+            max-width: 500px;
+        }
+
+        @media (max-width: 992px) {
+            .app-detail-hero {
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                padding-top: 60px;
+                gap: 30px;
+            }
+
+            .app-hero-info {
+                align-items: center;
+            }
+
+            .screenshot-img {
+                height: 380px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="detail-nav">
+        <div class="detail-nav-container">
+            <a href="index.html" class="detail-nav-logo-link">
+                <img src="assets/images/cover1.png" alt="DroidApks Logo" class="detail-nav-logo">
+            </a>
+        </div>
+    </nav>
+
+    <!-- Template main content container -->
+    <main id="app-content" style="display: none;">
+        <section class="app-detail-hero">
+            <img id="app-icon" src="" alt="App Icon" class="app-hero-icon">
+            <div class="app-hero-info">
+                <span class="work-category" style="margin-bottom: 8px;">Published Application</span>
+                <h1 id="app-title" class="app-title"></h1>
+                <p id="app-desc" class="app-desc"></p>
+                <a id="app-play-link" href="" class="work-btn" target="_blank"
+                    style="background: var(--app-accent); box-shadow: 0 4px 15px var(--app-accent-glow);">Download on
+                    Google Play</a>
+            </div>
+        </section>
+
+        <section class="screenshot-gallery">
+            <h2 class="gallery-title">Official Screenshots</h2>
+            <div id="app-screenshots-container" class="screenshot-container">
+                <!-- Screenshots will be injected dynamically -->
+            </div>
+        </section>
+
+        <section class="more-apps-section">
+            <h2 class="more-apps-title">More Apps</h2>
+            <div id="more-apps-grid" class="more-apps-grid">
+                <!-- Other apps links will be injected dynamically -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Error state container -->
+    <div id="error-content" class="error-container" style="display: none;">
+        <h1 class="error-title">Oops!</h1>
+        <p class="error-message">We couldn't find the application you are looking for. It may have been renamed or
+            removed.</p>
+        <a href="index.html" class="work-btn" style="box-shadow: none;">Back to Homepage</a>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Helper to parse query parameter
+            const urlParams = new URLSearchParams(window.location.search);
+            const appQuery = urlParams.get('app');
+
+            if (!appQuery) {
+                showError();
+                return;
+            }
+
+            // Fetch apps_data.json
+            fetch('apps_data.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Failed to load apps data');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Try to match the query parameter with keys in the JSON
+                    let matchedAppKey = Object.keys(data).find(key => key.toLowerCase() === appQuery.toLowerCase());
+
+                    if (!matchedAppKey || !data[matchedAppKey] || data[matchedAppKey].length === 0) {
+                        showError();
+                        return;
+                    }
+
+                    const app = data[matchedAppKey][0];
+                    renderAppDetails(app, data);
+                })
+                .catch(error => {
+                    console.error('Error rendering app details:', error);
+                    showError();
+                });
+        });
+
+        function hexToRgba(hex, alpha) {
+            hex = hex.replace('#', '');
+            let r = parseInt(hex.substring(0, 2), 16);
+            let g = parseInt(hex.substring(2, 4), 16);
+            let b = parseInt(hex.substring(4, 6), 16);
+            return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+        }
+
+        function renderAppDetails(app, allData) {
+            // 1. Set dynamic accent color
+            const accentColor = app.accent_color || '#6366f1';
+            document.documentElement.style.setProperty('--app-accent', accentColor);
+            document.documentElement.style.setProperty('--app-accent-glow', hexToRgba(accentColor, 0.4));
+
+            // 2. Set page metadata
+            document.title = `${app.title} | DroidApks`;
+            const metaDesc = document.querySelector('meta[name="description"]');
+            if (metaDesc) {
+                metaDesc.setAttribute('content', app.description);
+            }
+
+            // 3. Populate Hero info
+            document.getElementById('app-icon').src = app.icon;
+            document.getElementById('app-icon').alt = `${app.title} Icon`;
+            document.getElementById('app-title').textContent = app.title;
+            document.getElementById('app-desc').textContent = app.description;
+            document.getElementById('app-play-link').href = app.play_url;
+
+            // 4. Populate screenshots
+            const screenshotsContainer = document.getElementById('app-screenshots-container');
+            screenshotsContainer.innerHTML = '';
+            if (app.screenshots && app.screenshots.length > 0) {
+                app.screenshots.forEach(screenshotUrl => {
+                    const img = document.createElement('img');
+                    img.src = screenshotUrl;
+                    img.alt = `${app.title} Screenshot`;
+                    img.className = 'screenshot-img';
+                    screenshotsContainer.appendChild(img);
+                });
+            }
+
+            // 5. Populate More Apps grid (excluding the current app)
+            const moreAppsGrid = document.getElementById('more-apps-grid');
+            moreAppsGrid.innerHTML = '';
+
+            Object.keys(allData).forEach(key => {
+                if (key.toLowerCase() !== app.title.toLowerCase()) {
+                    const otherApp = allData[key][0];
+
+                    const card = document.createElement('a');
+                    card.href = `details.html?app=${encodeURIComponent(otherApp.title)}`;
+                    card.className = 'more-app-card';
+
+                    card.innerHTML = `
+                        <img src="${otherApp.icon}" alt="${otherApp.title}" class="more-app-icon">
+                        <div class="more-app-info">
+                            <span class="more-app-name">${otherApp.title}</span>
+                            <span class="more-app-category">${otherApp.category}</span>
+                        </div>
+                    `;
+                    moreAppsGrid.appendChild(card);
+                }
+            });
+
+            // Show main layout
+            document.getElementById('app-content').style.display = 'block';
+        }
+
+        function showError() {
+            document.getElementById('error-content').style.display = 'flex';
+        }
+    </script>
+</body>
+
+</html>

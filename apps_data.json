@@ -1,0 +1,135 @@
+{
+    "Flying Bird": [
+        {
+            "id": "com.droidapks.flayingbird",
+            "title": "Flying Bird",
+            "category": "Arcade Game",
+            "icon": "assets/images/apps/Flying%20Bird.png",
+            "accent_color": "#10b981",
+            "description": "Start the ultimate arcade journey with Flying Bird! Control flight paths, avoid obstacles, and collect powerful skill upgrades like Magnet and Ghost.",
+            "screenshots": [
+                "https://play-lh.googleusercontent.com/_re6mcALPaqotePA0WkgYeOQ6TighHRUS62FRmREPEhyZPdGM3QmRjcSpiMt6Pz1O-WZyvEIy4mtGHj9zw",
+                "https://play-lh.googleusercontent.com/JMopZCNQkzPSxjyYS-LBFrkYBIULh8gx54zFVgav3OqpvB5PaFYsGVifRNCtiQdQ9R0dCnLmopJ4LE9CTtzH",
+                "https://play-lh.googleusercontent.com/adPOWNtOuqusS07MHr-Ij99signlgJQgHXB4KKNNreagmCuIA38GfFA3yevxi4t99LSY3HWnnwGtVHW9nI5dzAo",
+                "https://play-lh.googleusercontent.com/E9sauuM-YoAR49FtQbjNds1pZdNZWYL4WQym1klUtfq7_jUfONV2C9E2tfOVL8mB78EwXPmPG0yLqZRwL8ZB",
+                "https://play-lh.googleusercontent.com/Zhcv5H4-cXb8suNZQVAPCnh_0234b64v6SM5S8r3c4Zy_BpImiZMkwGpyEyaEhhsO-m1izFy_wlPQoXx-TkxfQ"
+            ],
+            "play_url": "https://play.google.com/store/apps/details?id=com.droidapks.flayingbird&hl=en_US",
+            "detail_page": "details.html?app=Flying%20Bird"
+        }
+    ],
+    "My Finance": [
+        {
+            "id": "com.joory.myfinance",
+            "title": "My Finance",
+            "category": "Tools & Finance",
+            "icon": "assets/images/apps/My%20Finance.png",
+            "accent_color": "#6366f1",
+            "description": "Complete financial management tool to track your daily income, expenses, and manage your budget with intuitive reports. Plan your savings, set category limits, and visualize your financial health with interactive visual charts.",
+            "screenshots": [
+                "https://play-lh.googleusercontent.com/_re6mcALPaqotePA0WkgYeOQ6TighHRUS62FRmREPEhyZPdGM3QmRjcSpiMt6Pz1O-WZyvEIy4mtGHj9zw",
+                "https://play-lh.googleusercontent.com/B0tVW-TEIZ7rQo1tbS2Rq89dr8ZBMdS9JY4POOkD5H3WIoSN9LN-Oiz-XzKpXSWA1A8-276sC-RKpAKZ-eDP8Oa1M1KOI7ckbM",
+                "https://play-lh.googleusercontent.com/QlECGRyPsuVjtWG8vComtP7QZ8jqjRsyf1XW78xs6uBsjYGjqVkCqtLWa5wTMjwnfU2o",
+                "https://play-lh.googleusercontent.com/wZwbKPR_sJ8VdKZEfZBCvyvWiiv1S8IwMOsSknr9Xq5C8Tle3UOpVg85X58OE01PTOLb",
+                "https://play-lh.googleusercontent.com/0PAHGa-8U35gU4FGkQKgjaQHaM9nf7YqJGv_Dlg-s_rXgcgwmjuHlsGRjD9XQSTBOVY"
+            ],
+            "play_url": "https://play.google.com/store/apps/details?id=com.joory.myfinance&hl=en_US",
+            "detail_page": "details.html?app=My%20Finance"
+        }
+    ],
+    "9 Tiles Runner": [
+        {
+            "id": "com.droidapks.ninetilesrunner",
+            "title": "9 Tiles Runner",
+            "category": "Arcade Game",
+            "icon": "assets/images/apps/9%20Tiles%20Runner.png",
+            "accent_color": "#f43f5e",
+            "description": "A minimalist, fast-paced arcade game where you navigate a 3x3 tile grid. Test your reflexes by sliding between tiles, avoiding obstacles, and scoring points in this addictive grid runner experience.",
+            "screenshots": [
+                "https://play-lh.googleusercontent.com/_re6mcALPaqotePA0WkgYeOQ6TighHRUS62FRmREPEhyZPdGM3QmRjcSpiMt6Pz1O-WZyvEIy4mtGHj9zw",
+                "https://play-lh.googleusercontent.com/crg6w74qVLCwlq5ctWtnOIycJ_sIIwaISNyE7z4fPX5SOqD0HxZTQIrGh5rNrvBgylu7LrljwDiVYwqG_cy7",
+                "https://play-lh.googleusercontent.com/fEdknaNwCNUHkkrwIvI0fGAAocu5O2XrNLDu1zs8YGqtIVStKkWbvO7UKUUxSSvCPgUfiMssQuVdmadAC-YDnA",
+                "https://play-lh.googleusercontent.com/vxVp7URkeUVqrmbRrSju3irzRPYnploMIT4ucU4ZOUNJ3r27fgYCYq0La3tug-LxEL_TA1PUfTUZpPWnQ391uA",
+                "https://play-lh.googleusercontent.com/HqENoNbQBRsNA0M4dlWaYvZ7TrIm0uMcnNNt_jWxEaUJ8yABwqJtlRdhM1w3K05zCcEbHi8h1yzldD8S7R8PWWI"
+            ],
+            "play_url": "https://play.google.com/store/apps/details?id=com.droidapks.ninetilesrunner&hl=en_US",
+            "detail_page": "details.html?app=9%20Tiles%20Runner"
+        }
+    ],
+    "Droid Download Manager": [
+        {
+            "id": "com.droidapks.ddm",
+            "title": "Droid Download Manager",
+            "category": "Tools & Productivity",
+            "icon": "assets/images/apps/DDM.png",
+            "accent_color": "#3b82f6",
+            "description": "Fast, secure, and reliable download manager for Android devices. Features a built-in download accelerator, multi-thread downloading, download pausing/resuming, and an integrated file browser for seamless file management.",
+            "screenshots": [
+                "https://play-lh.googleusercontent.com/_re6mcALPaqotePA0WkgYeOQ6TighHRUS62FRmREPEhyZPdGM3QmRjcSpiMt6Pz1O-WZyvEIy4mtGHj9zw",
+                "https://play-lh.googleusercontent.com/RVzx716qVFiwI5RFmMirgaGn-I_S65MyUBulJRO9Qhbm7YKvmu897Y3_2nF6t8wE6wlpKG_7d6ZObNwsfpC-vww",
+                "https://play-lh.googleusercontent.com/erKw72HD7H2ZaviA2TLqUNFrkDEwrD3cnNEYgErg3SB2Av2Mft9edNWASzbtMFLZNmvj3J1NBiC4gwbMENuO6g",
+                "https://play-lh.googleusercontent.com/30fDALEhvA8KhiZa5sDdq9KkmK2T_hB2Sc2_APL7LfsuMvnUxxii0A_Af59Gan5vmfOcfsi9swnvf3-M2E2-",
+                "https://play-lh.googleusercontent.com/xP3kP5_NJbkRnDtYDf_e4VJ6_dYRZ1xOES6M4Rdg1cOuNIROeqBhlr9A-x-WvJoMBROUbmTGXZKSGXdbjW3mzcY"
+            ],
+            "play_url": "https://play.google.com/store/apps/details?id=com.droidapks.ddm&hl=en_US",
+            "detail_page": "details.html?app=Droid%20Download%20Manager"
+        }
+    ],
+    "Save Shared Files": [
+        {
+            "id": "com.droidapks.savefiles",
+            "title": "Save Shared Files",
+            "category": "Tools & Productivity",
+            "icon": "assets/images/apps/Save%20Shared%20Files.png",
+            "accent_color": "#0ea5e9",
+            "description": "Easily preview and save shared files to your local storage in one place. Access and manage all your documents, images, and downloaded media seamlessly with our intuitive file organizer designed for high productivity.",
+            "screenshots": [
+                "https://play-lh.googleusercontent.com/_re6mcALPaqotePA0WkgYeOQ6TighHRUS62FRmREPEhyZPdGM3QmRjcSpiMt6Pz1O-WZyvEIy4mtGHj9zw",
+                "https://play-lh.googleusercontent.com/VECbLVt3t9x6rJ-9Jw_E-q-PPOOkD5H3WIoSN9LN-Oiz-XzKpXSWA1A8-276sC-RKpAKZ-eDP8Oa1M1KOI7ckbM",
+                "https://play-lh.googleusercontent.com/Xc9_SmltbUTLmsiqYJxbBgv5Lat9AnSYyfPSOUwEgcmtGe4SS--VvRs893-jQcoemnw-iSXvdfO9Uy6kpa2Uk3I",
+                "https://play-lh.googleusercontent.com/T7wvYLrZJd0uON_XjyrhIAkHEVI4b0aIjvYf3v8AIFrv7-noK_nkEUca9PpkA6iMUlnlrou3uE_EcDH6-KTZCz4",
+                "https://play-lh.googleusercontent.com/IcIfX2wlL9q9is0Wsuq7LNvIdcShZhDlYKgauqcA8ULZQcHJAQxhdCEzR5G7CBMg9fu1YxUO--1WR1NNxvIxMr4"
+            ],
+            "play_url": "https://play.google.com/store/apps/details?id=com.droidapks.savefiles&hl=en_US",
+            "detail_page": "details.html?app=Save%20Shared%20Files"
+        }
+    ],
+    "Whiteboard Pro": [
+        {
+            "id": "com.joory.whiteboardapp",
+            "title": "Whiteboard Pro",
+            "category": "Productivity & Art",
+            "icon": "assets/images/apps/Whiteboard%20Pro.jpg",
+            "accent_color": "#8b5cf6",
+            "description": "Draw ideas on a pro whiteboard with shapes, text, and layers. Simple & powerful. Express your creativity, sketch system diagrams, take notes, and organize complex architectural diagrams with easy-to-use vector shape controls.",
+            "screenshots": [
+                "https://play-lh.googleusercontent.com/_re6mcALPaqotePA0WkgYeOQ6TighHRUS62FRmREPEhyZPdGM3QmRjcSpiMt6Pz1O-WZyvEIy4mtGHj9zw",
+                "https://play-lh.googleusercontent.com/yx9d14a_l4W0Ozrv0o6ysSADz_VXKhujrIGYEj9quNPBREBuJY4EpfYtsSc1dHm99a5wo59lc-qL6d6KlaJf",
+                "https://play-lh.googleusercontent.com/xkgtp3UIlKvGmboeQth0xlMkr-3y5Cw37IsEV_K_kPvR65rtq7OtgMjF2d0jP975q6Ra-e8Xw2pRvmZqFWj3",
+                "https://play-lh.googleusercontent.com/kMfHie8uKdKZGKztAZwU4KeSN9pfhvjWswt_s0qL0NucP2Uxy5JIpDx3t3R-kUdWKC8qb6qUO4H3RI0rw0Yf-Jc",
+                "https://play-lh.googleusercontent.com/ME0A7MfgUDqUFlcjgsz2ZNyZL6LGNoEclzcGbQCz_ilATpzJOoOBhL-jHWsGuweChbDwXhzZpZiJYZfaCXuM9Q"
+            ],
+            "play_url": "https://play.google.com/store/apps/details?id=com.joory.whiteboardapp&hl=en_US",
+            "detail_page": "details.html?app=Whiteboard%20Pro"
+        }
+    ],
+    "Shapes Master": [
+        {
+            "id": "com.droidapks.shapesmaster",
+            "title": "Shapes Master",
+            "category": "Puzzle Game",
+            "icon": "assets/images/apps/Shapes%20Master.png",
+            "accent_color": "#f59e0b",
+            "description": "Smart puzzle game draw shapes precisely to fill the grid and challenge your mind. Exercise geometry and space awareness logic to fit shapes accurately and solve complex progressive stages of mathematical layout puzzles.",
+            "screenshots": [
+                "https://play-lh.googleusercontent.com/_re6mcALPaqotePA0WkgYeOQ6TighHRUS62FRmREPEhyZPdGM3QmRjcSpiMt6Pz1O-WZyvEIy4mtGHj9zw",
+                "https://play-lh.googleusercontent.com/A3V4LJf18q_eANk-xDMLKmy4OI7KZeJ1ksJcAa0jdZsxOM2cqlAZ9eY5iEEADng48jhuq12r1Lu8hvRscBTE",
+                "https://play-lh.googleusercontent.com/nk14SYA59xkaKbhaVjyTBwIbsiISv5APVWl0XrnRrcI_rBgRjxrMT5zCoAJybYxEx8YeGda877VfKBoYxyLS",
+                "https://play-lh.googleusercontent.com/u_SZ-wA4Oy0a2NT1KQetCy5yI5k43NFgKGmutjEvILFwU6l6OflB0gJ-YlFzdE5OUddZnI8D3A1fiW5WyUTAWA",
+                "https://play-lh.googleusercontent.com/JRmW3tBH2lJTTnwXBQbSjuzl_tF59Y3OP2Agn5Zz3Ydegyy7t6uC6QpinNAAZLbWGMAtCnzRNv3J-zwZC--ghco"
+            ],
+            "play_url": "https://play.google.com/store/apps/details?id=com.droidapks.shapesmaster&hl=en_US",
+            "detail_page": "details.html?app=Shapes%20Master"
+        }
+    ]
+}

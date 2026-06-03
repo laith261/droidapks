@@ -654,3 +654,168 @@ nav a:hover {
     background: #4f46e5;
     box-shadow: 0 8px 25px var(--primary-glow);
 }
+
+/* More Apps Section */
+.more-apps-section {
+    padding: 80px 10%;
+    background: #f8fafc;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+.more-apps-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 35px;
+    color: #1e293b;
+}
+
+.more-apps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.more-app-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.more-app-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    border-color: var(--app-accent, #6366f1);
+}
+
+.more-app-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 14px;
+    object-fit: contain;
+    background: #f8fafc;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 4px;
+    flex-shrink: 0;
+}
+
+.more-app-info {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.more-app-name {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.more-app-category {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+    .more-apps-section {
+        padding: 50px 5%;
+    }
+    .more-apps-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* App Detail Navigation Bar */
+.detail-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.85);
+    border-bottom: 1px solid rgba(99, 102, 241, 0.08);
+    transition: all 0.3s ease;
+}
+
+.detail-nav-container {
+    max-width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+.detail-nav-logo-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.detail-nav-logo-link:hover {
+    transform: scale(1.02);
+}
+
+.detail-nav-logo {
+    height: 38px;
+    object-fit: contain;
+}
+
+.detail-nav-brand {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #1e293b;
+    letter-spacing: -0.5px;
+}
+
+.detail-nav-brand span {
+    background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Premium Back Button styling */
+.app-back-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(99, 102, 241, 0.06);
+    border: 1px solid rgba(99, 102, 241, 0.15);
+    color: var(--app-accent, #4f46e5);
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    flex-shrink: 0;
+}
+
+.app-back-btn:hover {
+    background: var(--app-accent, #4f46e5);
+    color: #ffffff;
+    border-color: var(--app-accent, #4f46e5);
+    transform: translateX(-4px);
+    box-shadow: 0 4px 15px var(--app-accent-glow, rgba(99, 102, 241, 0.25));
+}
+
+.app-back-btn svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    transition: transform 0.3s ease;
+}
