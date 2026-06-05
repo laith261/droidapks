@@ -15,7 +15,11 @@
                 "https://play-lh.googleusercontent.com/Zhcv5H4-cXb8suNZQVAPCnh_0234b64v6SM5S8r3c4Zy_BpImiZMkwGpyEyaEhhsO-m1izFy_wlPQoXx-TkxfQ"
             ],
             "play_url": "https://play.google.com/store/apps/details?id=com.droidapks.flayingbird&hl=en_US",
-            "detail_page": "details.html?app=Flying%20Bird"
+            "detail_page": "details.html?app=Flying%20Bird",
+            "technologies": [
+                "Flutter",
+                "Flame Engine"
+            ]
         }
     ],
     "My Finance": [
@@ -34,7 +38,10 @@
                 "https://play-lh.googleusercontent.com/0PAHGa-8U35gU4FGkQKgjaQHaM9nf7YqJGv_Dlg-s_rXgcgwmjuHlsGRjD9XQSTBOVY"
             ],
             "play_url": "https://play.google.com/store/apps/details?id=com.joory.myfinance&hl=en_US",
-            "detail_page": "details.html?app=My%20Finance"
+            "detail_page": "details.html?app=My%20Finance",
+            "technologies": [
+                "Flutter"
+            ]
         }
     ],
     "9 Tiles Runner": [
@@ -53,7 +60,11 @@
                 "https://play-lh.googleusercontent.com/HqENoNbQBRsNA0M4dlWaYvZ7TrIm0uMcnNNt_jWxEaUJ8yABwqJtlRdhM1w3K05zCcEbHi8h1yzldD8S7R8PWWI"
             ],
             "play_url": "https://play.google.com/store/apps/details?id=com.droidapks.ninetilesrunner&hl=en_US",
-            "detail_page": "details.html?app=9%20Tiles%20Runner"
+            "detail_page": "details.html?app=9%20Tiles%20Runner",
+            "technologies": [
+                "Flutter",
+                "Flame Engine"
+            ]
         }
     ],
     "Droid Download Manager": [
@@ -72,7 +83,10 @@
                 "https://play-lh.googleusercontent.com/xP3kP5_NJbkRnDtYDf_e4VJ6_dYRZ1xOES6M4Rdg1cOuNIROeqBhlr9A-x-WvJoMBROUbmTGXZKSGXdbjW3mzcY"
             ],
             "play_url": "https://play.google.com/store/apps/details?id=com.droidapks.ddm&hl=en_US",
-            "detail_page": "details.html?app=Droid%20Download%20Manager"
+            "detail_page": "details.html?app=Droid%20Download%20Manager",
+            "technologies": [
+                "Kotlin"
+            ]
         }
     ],
     "Save Shared Files": [
@@ -91,7 +105,10 @@
                 "https://play-lh.googleusercontent.com/IcIfX2wlL9q9is0Wsuq7LNvIdcShZhDlYKgauqcA8ULZQcHJAQxhdCEzR5G7CBMg9fu1YxUO--1WR1NNxvIxMr4"
             ],
             "play_url": "https://play.google.com/store/apps/details?id=com.droidapks.savefiles&hl=en_US",
-            "detail_page": "details.html?app=Save%20Shared%20Files"
+            "detail_page": "details.html?app=Save%20Shared%20Files",
+            "technologies": [
+                "Kotlin"
+            ]
         }
     ],
     "Whiteboard Pro": [
@@ -110,7 +127,10 @@
                 "https://play-lh.googleusercontent.com/ME0A7MfgUDqUFlcjgsz2ZNyZL6LGNoEclzcGbQCz_ilATpzJOoOBhL-jHWsGuweChbDwXhzZpZiJYZfaCXuM9Q"
             ],
             "play_url": "https://play.google.com/store/apps/details?id=com.joory.whiteboardapp&hl=en_US",
-            "detail_page": "details.html?app=Whiteboard%20Pro"
+            "detail_page": "details.html?app=Whiteboard%20Pro",
+            "technologies": [
+                "Kotlin"
+            ]
         }
     ],
     "Shapes Master": [
@@ -129,7 +149,11 @@
                 "https://play-lh.googleusercontent.com/JRmW3tBH2lJTTnwXBQbSjuzl_tF59Y3OP2Agn5Zz3Ydegyy7t6uC6QpinNAAZLbWGMAtCnzRNv3J-zwZC--ghco"
             ],
             "play_url": "https://play.google.com/store/apps/details?id=com.droidapks.shapesmaster&hl=en_US",
-            "detail_page": "details.html?app=Shapes%20Master"
+            "detail_page": "details.html?app=Shapes%20Master",
+            "technologies": [
+                "Flutter",
+                "Flame Engine"
+            ]
         }
     ]
 }

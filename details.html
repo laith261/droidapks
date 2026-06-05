@@ -7,7 +7,7 @@
     <title>App Details | DroidApks</title>
     <meta name="description"
         content="View detail specs, screenshots, and download native premium Android applications.">
-    <link rel="icon" href="assets/images/cover1.png" type="image/png">
+    <link rel="icon" href="assets/images/logo.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
@@ -152,6 +152,35 @@
                 height: 380px;
             }
         }
+
+        .tech-badge-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 25px;
+            margin-top: 5px;
+        }
+
+        .tech-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.6);
+            border: 1px solid var(--app-accent-glow);
+            color: var(--app-accent);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            cursor: pointer;
+        }
+
+        .tech-badge:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px var(--app-accent-glow);
+            background: var(--app-accent);
+            color: #ffffff;
+            border-color: var(--app-accent);
+        }
     </style>
 </head>
 
@@ -159,7 +188,7 @@
     <nav class="detail-nav">
         <div class="detail-nav-container">
             <a href="index.html" class="detail-nav-logo-link">
-                <img src="assets/images/cover1.png" alt="DroidApks Logo" class="detail-nav-logo">
+                <img src="assets/images/logo.png" alt="DroidApks Logo" class="detail-nav-logo">
             </a>
         </div>
     </nav>
@@ -172,6 +201,7 @@
                 <span class="work-category" style="margin-bottom: 8px;">Published Application</span>
                 <h1 id="app-title" class="app-title"></h1>
                 <p id="app-desc" class="app-desc"></p>
+                <div class="tech-badge-container" id="app-tech-container"></div>
                 <a id="app-play-link" href="" class="work-btn" target="_blank"
                     style="background: var(--app-accent); box-shadow: 0 4px 15px var(--app-accent-glow);">Download on
                     Google Play</a>
@@ -265,6 +295,20 @@
             document.getElementById('app-title').textContent = app.title;
             document.getElementById('app-desc').textContent = app.description;
             document.getElementById('app-play-link').href = app.play_url;
+
+            // 3.5 Populate technologies
+            const techContainer = document.getElementById('app-tech-container');
+            if (techContainer) {
+                techContainer.innerHTML = '';
+                if (app.technologies && app.technologies.length > 0) {
+                    app.technologies.forEach(tech => {
+                        const badge = document.createElement('span');
+                        badge.className = 'tech-badge';
+                        badge.textContent = tech;
+                        techContainer.appendChild(badge);
+                    });
+                }
+            }
 
             // 4. Populate screenshots
             const screenshotsContainer = document.getElementById('app-screenshots-container');
